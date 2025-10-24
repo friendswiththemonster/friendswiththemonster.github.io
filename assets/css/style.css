@@ -497,7 +497,7 @@ section{
 @media only screen and (min-width: 1450px) and (orientation: landscape) {
 
 *{
-	font-size: 1.25vw;
+	font-size: 1.1vw;
 }
 
 #title {
@@ -511,7 +511,7 @@ section{
 }
 
 #title :is(h1,em) {
-	font-size: 5rem !important;
+	font-size: 4rem !important;
 	word-spacing: -3px;
 	letter-spacing: -3px;
 }
