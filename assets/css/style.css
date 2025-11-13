@@ -246,6 +246,15 @@ img, p > img{
 	padding-top: 1em;
 }
 
+.protokolle ol{
+	padding-left: 1rem;
+	margin-left: 0;
+}
+
+ol>li{
+	list-style: decimal;
+	/*padding-left: 1rem;*/
+}
 
 
 code{
