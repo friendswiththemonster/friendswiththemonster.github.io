@@ -100,7 +100,7 @@ ul{
 
 
 ul li{
-	list-style: disc;
+	list-style: circle;
 }
 
 .index ol{
@@ -242,7 +242,9 @@ img, p > img{
 }
 
 
-
+.protokolle h3{
+	padding-top: 1em;
+}
 
 
 
@@ -303,6 +305,12 @@ h4{
 h5{
 	font-weight: bolder;
 	padding-top: .25rem;
+}
+
+h6{
+	font-weight: normal;
+	padding-top: .25rem;
+	text-transform: uppercase;
 }
 
 .pagina{
@@ -497,11 +505,11 @@ section{
 @media only screen and (min-width: 1450px) and (orientation: landscape) {
 
 *{
-	font-size: 1.1vw;
+	/*font-size: 1.1vw;*/
 }
 
 #title {
-	font-size: 2.5vw !important;
+	font-size: 3.5vw !important;
 	padding-top: 10vh ;
 }
 
@@ -511,7 +519,7 @@ section{
 }
 
 #title :is(h1,em) {
-	font-size: 4rem !important;
+	font-size: 5rem !important;
 	word-spacing: -3px;
 	letter-spacing: -3px;
 }
