@@ -246,6 +246,10 @@ img, p > img{
 	text-indent: 0 !important;
 }
 
+.submissions > p > img{
+	left:0 !important;
+}
+
 
 .protokolle h3{
 	padding-top: 1em;
