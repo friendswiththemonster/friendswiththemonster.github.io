@@ -1,0 +1,27 @@
+<h1>Interface for the polyfill</h1>
+<p>Paged.js will manipulate the DOM so the browser can understand the css rules you wrote. On screen, pages will be shown from top to bottom on the left side of the page. To have a better understanding of what’s happening on the page, we made a small CSS file call interface that defines the layout to show your book on screen. Since we’re using @media screen, page borders and shadow won’t appear on paper when printed.</p>
+<p>Note that when the PDF is generated the pages are always in recto/verso, it’is not possible to lay out the pages on a plate.</p>
+<h2>How to use it</h2>
+<p>Download the <code>interface.css</code> file and link the stylesheet to your document in the <code>&lt;head&gt;</code>:</p>
+<p><code>&lt;link href=&quot;path/to/file/interface.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</code></p>
+<p>Please check the file, as it already offers options to show facing pages, recto/verso, baseline, etc.</p>
+<p>If you’re using paged.js prior to 0.4.1 you’ll want to use the <code>interface.legacy.css</code></p>
+<h2>Releases</h2>
+<h3>v0.3</h3>
+<ul>
+<li>Add support for paged.js 0.4.1: add pagedjs-ignore so the whole style sheet is passed to the browser without being manipulated by paged.js</li>
+<li>move 0.2 to <code>pagedjs.legacy.css</code></li>
+</ul>
+<h3>v0.2</h3>
+<p><code>git checkout 828b9865</code></p>
+<ul>
+<li>Delete bleed inside for facing pages (on screen only)</li>
+</ul>
+<img src="img-interface_v0.2.png" alt="Screenshot of the interface (v0.2)"><h3>v0.1</h3>
+<p><code>git checkout a1b3200e</code></p>
+<ul>
+<li>Show facing pages or recto-verso (uncomment line of code for recto-verso)</li>
+<li>Show baseline (uncomment line of code)</li>
+<li>Show margin boxes (default: transparent)</li>
+<li>Variables to change the look</li>
+</ul>
